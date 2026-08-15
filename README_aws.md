@@ -161,16 +161,18 @@ Chạy script và điền kết quả vào bảng:
 
 | Metric | Kết quả |
 |---|---|
-| Thời gian load data | |
-| Thời gian training | |
-| Best iteration | |
-| AUC-ROC | |
-| Accuracy | |
-| F1-Score | |
-| Precision | |
-| Recall | |
-| Inference latency (1 row) | |
-| Inference throughput (1000 rows) | |
+| Thời gian load data | 2.203 s |
+| Thời gian training | 2.003 s |
+| Best iteration | 1 |
+| AUC-ROC | 0.95165 |
+| Accuracy | 0.99895 |
+| F1-Score | 0.72727 |
+| Precision | 0.65574 |
+| Recall | 0.81633 |
+| Inference latency (1 row) | 1.606 ms |
+| Inference throughput (1000 rows) | 520,060.8 rows/sec |
+
+> Chi tiết đầy đủ (môi trường, dataset, JSON gốc) và báo cáo nhận xét: xem [`terraform/RESULTS.md`](terraform/RESULTS.md) và [`terraform/benchmark_result.json`](terraform/benchmark_result.json).
 
 ---
 
